@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+
+{% block title %}Bakoba Gensu - Kontrol Paneli{% endblock %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col-12">
+        <h2><i class="fas fa-tachometer-alt me-2"></i>Kontrol Paneli</h2>
+        <p class="text-light">Envanterinizin genel görünümü ve temel istatistikler</p>
+    </div>
+</div>
+
+<div class="row mb-4">
+    <div class="col-md-3 mb-3">
+        <div class="card bg-primary text-white h-100">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <h6 class="card-title">Toplam ürünler</h6>
+                        
+                        <h2 class="mb-0">{{ toplam_urunler }}</h2>
+                    </div>
+                    <i class="fas fa-box fa-3x opacity-50"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 mb-3">
+        <div class="card bg-success text-white h-100">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <h6 class="card-title">Stok değeri</h6>
+                        <h2 class="mb-0">{{ "{:,.2f}".format(stok_degeri) }} ₺</h2>
+                    </div>
+                    <i class="fas fa-light fa-coins fa-3x opacity-50"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3 mb-3">
+        <div class="card bg-warning text-white h-100">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <h6 class="card-title">Düşük stok</h6>
+                        
+                        <h2 class="mb-0">{{ dusuk_stok_sayisi }}</h2>
+                    </div>
+                    <i class="fas fa-exclamation-triangle fa-3x opacity-50"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 mb-3">
+        <div class="card bg-danger text-white h-100">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <h6 class="card-title">Stoklar tükendi</h6>
+                       
+                        <h2 class="mb-0">{{ stok_tukendi_sayisi }}</h2>
+                    </div>
+                    <i class="fas fa-times-circle fa-3x opacity-50"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
