@@ -97,16 +97,30 @@ Manuel veya dağınık takip sistemleri hatalara ve kayıplara yol açabilir. Bu
 
 ### 6. 📸 Ekran Görüntüleri
 
+
+
 ![image](https://github.com/user-attachments/assets/5a96c601-a2c6-4271-b1c7-de49cc9c805f)
 
 🔐 **Giriş Sayfası**
+![image](https://github.com/user-attachments/assets/550b4502-8d86-45f2-9a3e-8d6666099a84)
+
 .....
 
 📋 **Ürün Listesi**
+
+![image](https://github.com/user-attachments/assets/f9db3c21-adb9-4d9e-964b-545631caa730)
+
 ....
 
 ➕ **Ürün Ekleme Formu**
+
+![image](https://github.com/user-attachments/assets/2158bac8-5099-402b-bbbf-69ae682ba5c6)
+
+
 ....
+ **Kontrol Paneli**
+
+ ![image](https://github.com/user-attachments/assets/88724172-84d3-4a3c-852b-df5d85d9b255)
 
 ---
 
