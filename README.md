@@ -97,6 +97,8 @@ Manuel veya dağınık takip sistemleri hatalara ve kayıplara yol açabilir. Bu
 
 ### 6. 📸 Ekran Görüntüleri
 
+![image](https://github.com/user-attachments/assets/5a96c601-a2c6-4271-b1c7-de49cc9c805f)
+
 🔐 **Giriş Sayfası**
 .....
 
@@ -138,7 +140,7 @@ Daha fazla zamanla şu özellikler eklenebilir :
 
 ### 9. 📬 İletişim
 
-• **GitHub** : `butunleme` 
+• **GitHub** : `butunleme` https://bakoba-gensu-1-2.onrender.com
 • **E-posta** : `gazangue@gmail.com`
 
 ---
